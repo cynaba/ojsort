@@ -8,8 +8,8 @@ dataSet[dataSetVersion].options = [
     tooltip: "Check this to restrict to certain series\n(All that apply)",
     checked: true,
     sub: [
-			{ name: "100 Orange Juice!", key: "oj" },
-			{ name: "200 Mixed Juice!", key: "mj" },
+			{ name: "100% Orange Juice!", key: "oj" },
+			{ name: "200% Mixed Juice!", key: "mj" },
 			{ name: "QP Shooting", key: "qps", checked: false },
 			{ name: "Christmas Shooting", key: "cms", checked: false },
 			{ name: "QP Shooting - Dangerous!!", key: "qpsd", checked: false },
