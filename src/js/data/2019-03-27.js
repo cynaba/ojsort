@@ -9,7 +9,7 @@ dataSet[dataSetVersion].options = [
     checked: true,
     sub: [
 			{ name: "100% Orange Juice!", key: "oj" },
-			{ name: "200% Mixed Juice!", key: "mj" },
+			{ name: "200% Mixed Juice!", key: "mj", checked: false },
 			{ name: "QP Shooting", key: "qps", checked: false },
 			{ name: "Christmas Shooting", key: "cms", checked: false },
 			{ name: "QP Shooting - Dangerous!!", key: "qpsd", checked: false },
@@ -32,7 +32,7 @@ dataSet[dataSetVersion].options = [
   {
     name: "Remove Non-Girls",
     key: "notgirl",
-    tooltip: "Check this to remove all non-female characters\n(Note: Does not remove Mira)",
+    tooltip: "Check this to remove all non-female characters\nMira counts as a girl",
 		checked: false
   },
 	{
