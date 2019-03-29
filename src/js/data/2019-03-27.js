@@ -3,29 +3,49 @@ dataSet[dataSetVersion] = {};
 
 dataSet[dataSetVersion].options = [
   {
-    name: "Filter by Series Entry",
+    name: "Filter by Series",
     key: "series",
-    tooltip: "Check this to restrict to certain series",
-    checked: false,
+    tooltip: "Check this to restrict to certain series\n(All that apply)",
+    checked: true,
     sub: [
-			{ name: "QP Shooting", key: "qps" },
-			{ name: "Christmas Shooting", key: "cms" },
-			{ name: "QP Shooting - Dangerous!!", key: "qpsd" },
-			{ name: "Xmas Shooting - Scramble!!", key: "xmss" },
-      { name: "SUGURI", key: "sugu" },
-			{ name: "sora", key: "sora" },
-			{ name: "Acceleration of Suguri X", key: "aos" },
-			{ name: "Acceleration of Suguri 2", key: "aos2" },
-			{ name: "Flying Red Barrel", key: "frb" },
-			{ name: "Alicainrone", key: "alicia" },
-			{ name: "QP Kiss", key: "qpk" }
+			{ name: "100 Orange Juice!", key: "oj" },
+			{ name: "200 Mixed Juice!", key: "mj" },
+			{ name: "QP Shooting", key: "qps", checked: false },
+			{ name: "Christmas Shooting", key: "cms", checked: false },
+			{ name: "QP Shooting - Dangerous!!", key: "qpsd", checked: false },
+			{ name: "Xmas Shooting - Scramble!!", key: "xmss", checked: false },
+      { name: "SUGURI", key: "sugu", checked: false },
+			{ name: "sora", key: "sora", checked: false },
+			{ name: "Acceleration of SUGURI (X-Edition)", key: "aos", checked: false },
+			{ name: "Acceleration of SUGURI 2", key: "aos2", checked: false },
+			{ name: "Flying Red Barrel", key: "frb", checked: false },
+			{ name: "Alicianrone", key: "alicia", checked: false },
+			{ name: "QP Kiss", key: "qpk", checked: false }
 
     ]
+  },
+	{
+    name: "Remove Alternate Versions",
+    key: "alt",
+    tooltip: "Check this to remove possible duplicate Characters\ne.g. Suguri (Ver.2)"
   },
   {
     name: "Remove Non-Girls",
     key: "notgirl",
-    tooltip: "Check this to remove all non-female characters."
+    tooltip: "Check this to remove all non-female characters\n(Note: Does not remove Mira)",
+		checked: false
+  },
+	{
+    name: "Remove Neutral (NPC) Characters",
+    key: "npc",
+    tooltip: "Check this to remove all NPCs\ne.g. Chicken, Seagull",
+		checked: true
+  },
+	{
+    name: "Remove Unadded Characters",
+    key: "npc",
+    tooltip: "Check this to remove all characters not playable in 100% OJ (yet)	\ne.g. Lone Rider",
+		checked: true
   }
 ];
 
@@ -41,7 +61,8 @@ dataSet[dataSetVersion].characterData = [
     name: "Arthur",
     img: "AAE6TUa.png",
     opts: {
-      series: [ "cms", "mj", "oj" ]
+      series: [ "cms", "mj", "oj" ],
+			notgirl: true
     }
   },
   {
@@ -63,13 +84,6 @@ dataSet[dataSetVersion].characterData = [
     img: "I6vzxkF.png",
     opts: {
       series: [ "frb", "oj", "mj" ]
-    }
-  },
-	{
-    name: "Aru",
-    img: "Kg08ML1.png",
-    opts: {
-      series: [ "cms", "oj", "mj", "xmss" ]
     }
   },
 	{
@@ -97,7 +111,8 @@ dataSet[dataSetVersion].characterData = [
     name: "Kai",
     img: "LDzx5iY.png",
     opts: {
-      series: [ "oj", "mj" ]
+      series: [ "oj", "mj" ],
+			notgirl: true
     }
   },
 	{
@@ -125,7 +140,8 @@ dataSet[dataSetVersion].characterData = [
     name: "Kyousuke",
     img: "r28PfSj.png",
     opts: {
-      series: [ "qpsd", "oj", "mj", "qpk" ]
+      series: [ "qpsd", "oj", "mj", "qpk" ],
+			notgirl: true
     }
   },
 	{
@@ -202,14 +218,16 @@ dataSet[dataSetVersion].characterData = [
     name: "NoName",
     img: "PrtWnJV.png",
     opts: {
-      series: [ "aos", "oj", "mj" ]
+      series: [ "aos", "oj", "mj" ],
+			notgirl: true
     }
   },
 	{
     name: "Peat",
     img: "s9KV2pz.png",
     opts: {
-      series: [ "frb", "oj", "mj" ]
+      series: [ "frb", "oj", "mj" ],
+			notgirl: true
     }
   },
 	{
@@ -255,7 +273,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
 	{
-    name: "SUGURI",
+    name: "Suguri",
     img: "Lr9Qxnp.png",
     opts: {
       series: [ "sugu", "aos", "sora", "aos2", "mj", "oj" ]
@@ -273,6 +291,247 @@ dataSet[dataSetVersion].characterData = [
     img: "xlKr3zc.png",
     opts: {
       series: [ "qpsd", "oj", "mj" ]
+    }
+  },
+	{
+    name: "Captain Tequila",
+    img: "4H5EVSr.png",
+    opts: {
+      series: [ "frb", "oj", "mj" ],
+			notgirl: true
+    }
+  },
+	{
+    name: "Tomato",
+    img: "EVEQks9.png",
+    opts: {
+      series: [ "qpsd", "oj", "mj" ]
+    }
+  },
+	{
+    name: "Tomomo",
+    img: "NLhPu1N.png",
+    opts: {
+      series: [ "oj", "mj" ]
+    }
+  },
+	{
+    name: "Tsih",
+    img: "Z5MvXGn.png",
+    opts: {
+      series: [ "sora", "aos2", "oj", "mj" ]
+    }
+  },
+	{
+    name: "Yuki",
+    img: "yRbrX9c.png",
+    opts: {
+      series: [ "qps", "qpsd", "oj", "mj" ]
+    }
+  },
+	{
+    name: "Aru (Scramble)",
+    img: "WbzPN5j.png",
+    opts: {
+      series: [ "xmss", "oj" ],
+			alt: true
+    }
+  },
+	{
+    name: "Marie Poppo (Mixed)",
+    img: "hyUHyu7.png",
+    opts: {
+      series: [ "oj", "mj" ],
+			alt: true
+    }
+  },
+
+	{
+    name: "QP (Dangerous)",
+    img: "jo5rLTS.png",
+    opts: {
+      series: [ "qpsd", "oj", "mj" ],
+			alt: true
+    }
+  },
+	{
+    name: "Suguri (Ver.2)",
+    img: "lY6ophn.png",
+    opts: {
+      series: [ "oj" ],
+			alt: true
+    }
+  },
+	{
+    name: "Tomomo (C&SE)",
+    img: "nFctYtN.png",
+    opts: {
+      series: [ "oj", "mj" ],
+			alt: true
+    }
+  },
+	{
+    name: "Yuki (Dangerous)",
+    img: "whUTpHI.png",
+    opts: {
+      series: [ "oj", "qpsd", "mj" ],
+			alt: true
+    }
+  },
+	{
+    name: "Robo Ball",
+    img: "RrlVRB2.png",
+    opts: {
+      series: [ "sugu", "aos", "oj", "mj" ],
+			notgirl: true,
+			npc: true
+    }
+  },
+	{
+    name: "Shifu Robot",
+    img: "ad80FW0.png",
+    opts: {
+      series: [ "sugu", "aos", "oj", "mj", "qpsd" ],
+			notgirl: true,
+			npc: true
+    }
+  },
+	{
+    name: "Flying Castle",
+    img: "wh25GF5.png",
+    opts: {
+      series: [ "frb", "oj", "mj", "xmss" ],
+			notgirl: true,
+			npc: true
+    }
+  },
+	{
+    name: "Chicken",
+    img: "8le2MoJ.png",
+    opts: {
+      series: [ "qps", "qpsd", "oj" ],
+			notgirl: true,
+			npc: true
+    }
+  },
+	{
+    name: "Store Manager",
+    img: "88UyZXE.png",
+    opts: {
+      series: [ "qps", "oj", "mj" ],
+			notgirl: true,
+			npc: true
+    }
+  },
+	{
+    name: "Seagull",
+    img: "3CuJ6qV.png",
+    opts: {
+      series: [ "frb", "oj", "mj" ],
+			notgirl: true,
+			npc: true
+    }
+  },
+	{
+    name: "Alicianrone",
+    img: "QOqcZA6.png",
+    opts: {
+      series: [ "alicia", "mj" ],
+			notadded: true
+    }
+  },
+	{
+    name: "Chris",
+    img: "fjfQ6u2.png",
+    opts: {
+      series: [ "qps", "mj" ],
+			notadded: true
+    }
+  },
+	{
+    name: "Dirue",
+    img: "yMEI1au.png",
+    opts: {
+      series: [ "alicia", "mj" ],
+			notgirl: true,
+			notadded: true
+    }
+  },
+	{
+    name: "Islay",
+    img: "7xkG4eO.png",
+    opts: {
+      series: [ "frb", "mj" ],
+			notadded: true
+    }
+  },
+	{
+    name: "Kyupita",
+    img: "RP6i7ew.png",
+    opts: {
+      series: [ "qpk", "mj" ],
+			notgirl: true,
+			notadded: true
+    }
+  },
+	{
+    name: "Lone Rider",
+    img: "HRPgicw.png",
+    opts: {
+      series: [ "frb", "mj" ],
+			notgirl: true,
+			notadded: true
+    }
+  },
+	{
+    name: "Mescal",
+    img: "t9ddpek.png",
+    opts: {
+      series: [ "frb", "mj" ],
+			notadded: true
+    }
+  },
+	{
+    name: "Mira (Past)",
+    img: "SoABo3V.png",
+    opts: {
+      series: [ "mj" ],
+			alt: true,
+			notadded: true
+    }
+  },
+	{
+    name: "Reika",
+    img: "opMbuHY.png",
+    opts: {
+      series: [ "mj" ],
+			alt: true,
+			notadded: true
+    }
+  },
+	{
+    name: "Sumika",
+    img: "wYDZ7e0.png",
+    opts: {
+      series: [ "aos2", "mj" ],
+			notadded: true
+    }
+  },
+	{
+    name: "Yukihito (Yukito)",
+    img: "41A7Rkc.png",
+    opts: {
+      series: [ "sora", "mj" ],
+			notgirl: true,
+			notadded: true
+    }
+  },
+	{
+    name: "Yuuki",
+    img: "KC3jYG0.png",
+    opts: {
+      series: [ "qps", "mj" ],
+			notadded: true
     }
   }
 ];
