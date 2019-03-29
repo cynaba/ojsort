@@ -38,7 +38,7 @@ body {
 
 .progressfill {
   height: 20px;
-  background-color: orange;
+  background-color: #ff6600;
   width: 0%;
 }
 
@@ -159,7 +159,7 @@ body {
 }
 
 label:hover {
-  color: #990000;
+  color: #ff6600;
 }
 
 .options > .large.option, .options > hr {
@@ -275,10 +275,6 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  color: #FF6600;
-}
-
-a:visited {
-  color: #6600FF;
+a:hover, a:visited {
+  color: #ff6600;
 }
