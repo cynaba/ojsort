@@ -532,8 +532,7 @@ dataSet[dataSetVersion].characterData = [
       series: [ "qps", "mj" ],
 			notadded: true
     }
-  }
-],
+  },
 	{
     name: "Marc (Pig)",
     img: "7wF4ekx.png",
@@ -570,4 +569,5 @@ dataSet[dataSetVersion].characterData = [
 			alt: true,
 			notadded: true
     }
-  };
+  }
+]
