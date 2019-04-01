@@ -533,4 +533,41 @@ dataSet[dataSetVersion].characterData = [
 			notadded: true
     }
   }
-];
+],
+	{
+    name: "Marc (Pig)",
+    img: "7wF4ekx.png",
+    opts: {
+      series: [ "mj" ],
+			alt: true,
+			notadded: true
+    }
+  },
+	{
+    name: "Peat (Pig)",
+    img: "Dlm45RD.png",
+    opts: {
+      series: [ "mj" ],
+			alt: true,
+                        notgirl: true,
+			notadded: true
+    }
+  },
+	{
+    name: "Suguri (46 Billion Years)",
+    img: "RctxyjS.png",
+    opts: {
+      series: [ "mj" ],
+			alt: true,
+			notadded: true
+    }
+  },
+	{
+    name: "Sumika (46 Billion Years)",
+    img: "s2qRx1v.png",
+    opts: {
+      series: [ "mj" ],
+			alt: true,
+			notadded: true
+    }
+  };
