@@ -434,7 +434,7 @@ dataSet[dataSetVersion].characterData = [
   },
 	{
     name: "Alicianrone",
-    img: "QOqcZA6.png",
+    img: "Wp7kKcM.png",
     opts: {
       series: [ "alicia", "mj" ],
 			notadded: true
@@ -442,7 +442,7 @@ dataSet[dataSetVersion].characterData = [
   },
 	{
     name: "Chris",
-    img: "fjfQ6u2.png",
+    img: "iZYVrG1.png",
     opts: {
       series: [ "qps", "mj" ],
 			notadded: true
@@ -450,7 +450,7 @@ dataSet[dataSetVersion].characterData = [
   },
 	{
     name: "Dirue",
-    img: "yMEI1au.png",
+    img: "RzP0DUe.png",
     opts: {
       series: [ "alicia", "mj" ],
 			notgirl: true,
@@ -459,7 +459,7 @@ dataSet[dataSetVersion].characterData = [
   },
 	{
     name: "Islay",
-    img: "7xkG4eO.png",
+    img: "k5R9hmB.png",
     opts: {
       series: [ "frb", "mj" ],
 			notadded: true
@@ -467,7 +467,7 @@ dataSet[dataSetVersion].characterData = [
   },
 	{
     name: "Kyupita",
-    img: "RP6i7ew.png",
+    img: "vUqRnTw.png",
     opts: {
       series: [ "qpk", "mj" ],
 			notgirl: true,
@@ -476,7 +476,7 @@ dataSet[dataSetVersion].characterData = [
   },
 	{
     name: "Lone Rider",
-    img: "HRPgicw.png",
+    img: "71H4dba.png",
     opts: {
       series: [ "frb", "mj" ],
 			notgirl: true,
@@ -485,7 +485,7 @@ dataSet[dataSetVersion].characterData = [
   },
 	{
     name: "Mescal",
-    img: "t9ddpek.png",
+    img: "Aq2EqyD.png",
     opts: {
       series: [ "frb", "mj" ],
 			notadded: true
@@ -493,7 +493,7 @@ dataSet[dataSetVersion].characterData = [
   },
 	{
     name: "Mira (Past)",
-    img: "SoABo3V.png",
+    img: "fVJx9m3.png",
     opts: {
       series: [ "mj" ],
 			alt: true,
@@ -502,16 +502,15 @@ dataSet[dataSetVersion].characterData = [
   },
 	{
     name: "Reika",
-    img: "opMbuHY.png",
+    img: "BN2Ovyn.png",
     opts: {
       series: [ "mj" ],
-			alt: true,
 			notadded: true
     }
   },
 	{
     name: "Sumika",
-    img: "wYDZ7e0.png",
+    img: "furXsU0.png",
     opts: {
       series: [ "aos2", "mj" ],
 			notadded: true
@@ -519,7 +518,7 @@ dataSet[dataSetVersion].characterData = [
   },
 	{
     name: "Yukihito (Yukito)",
-    img: "41A7Rkc.png",
+    img: "mZvOIde.png",
     opts: {
       series: [ "sora", "mj" ],
 			notgirl: true,
@@ -528,7 +527,7 @@ dataSet[dataSetVersion].characterData = [
   },
 	{
     name: "Yuuki",
-    img: "KC3jYG0.png",
+    img: "XP99sjX.png",
     opts: {
       series: [ "qps", "mj" ],
 			notadded: true
