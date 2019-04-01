@@ -50,6 +50,7 @@ dataSet[dataSetVersion].options = [
 ];
 
 dataSet[dataSetVersion].characterData = [
+	// in 100% OJ
   {
     name: "Alte",
     img: "1uLpuoE.png",
@@ -329,6 +330,7 @@ dataSet[dataSetVersion].characterData = [
       series: [ "qps", "qpsd", "oj", "mj" ]
     }
   },
+	// Alternate
 	{
     name: "Aru (Scramble)",
     img: "WbzPN5j.png",
@@ -363,10 +365,18 @@ dataSet[dataSetVersion].characterData = [
     }
   },
 	{
-    name: "Tomomo (Casual & Sweet Eater)",
-    img: "nFctYtN.png",
+    name: "Tomomo (Casual)",
+    img: "xa2PgEO.png",
     opts: {
       series: [ "oj", "mj" ],
+			alt: true
+    }
+  },
+	{
+    name: "Tomomo (Sweet Eater)",
+    img: "af1EKEw.png",
+    opts: {
+      series: [ "oj" ],
 			alt: true
     }
   },
@@ -378,6 +388,7 @@ dataSet[dataSetVersion].characterData = [
 			alt: true
     }
   },
+	// NPC
 	{
     name: "Robo Ball",
     img: "RrlVRB2.png",
@@ -432,6 +443,7 @@ dataSet[dataSetVersion].characterData = [
 			npc: true
     }
   },
+	// Not in 100% OJ
 	{
     name: "Alicianrone",
     img: "Wp7kKcM.png",
@@ -548,7 +560,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       series: [ "mj" ],
 			alt: true,
-                        notgirl: true,
+      notgirl: true,
 			notadded: true
     }
   },
