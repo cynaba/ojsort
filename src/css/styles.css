@@ -123,15 +123,15 @@ body {
 
 .sorter > .text {
   width: 256px;
-  height: 48px;
+  height: 2.4em;
   display: none;
 }
 
 .sorter > .text > p {
   margin: 0.5em 5px 0px;
-  width: calc(100%-10px);
+  width: calc(100%-10em	);
   text-align: center;
-  font-size: 0.8em;
+  font-size: 1.1em;
   line-height: 1.5em;
 }
 
