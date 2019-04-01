@@ -363,7 +363,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
 	{
-    name: "Tomomo (C&SE)",
+    name: "Tomomo (Casual & Sweet Eater)",
     img: "nFctYtN.png",
     opts: {
       series: [ "oj", "mj" ],
