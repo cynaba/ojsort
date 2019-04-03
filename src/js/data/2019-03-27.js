@@ -27,7 +27,8 @@ dataSet[dataSetVersion].options = [
 	{
     name: "Remove Alternate Versions",
     key: "alt",
-    tooltip: "Check this to remove possible duplicate Characters\ne.g. Suguri (Ver.2)"
+    tooltip: "Check this to remove possible duplicate Characters\ne.g. Suguri (Ver.2)",
+		checked: false
   },
   {
     name: "Remove Non-Girls",
@@ -39,13 +40,13 @@ dataSet[dataSetVersion].options = [
     name: "Remove Neutral (NPC) Characters",
     key: "npc",
     tooltip: "Check this to remove all NPCs\ne.g. Chicken, Seagull",
-		checked: true
+		checked: false
   },
 	{
     name: "Remove Unadded Characters",
     key: "npc",
     tooltip: "Check this to remove all characters not playable in 100% OJ (yet)	\ne.g. Lone Rider",
-		checked: true
+		checked: false
   }
 ];
 
