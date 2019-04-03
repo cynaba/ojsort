@@ -581,5 +581,59 @@ dataSet[dataSetVersion].characterData = [
 			alt: true,
 			notadded: true
     }
-  }
+  },
+	{
+    name: "Bourbon",
+    img: "0vZOYg8.png",
+    opts: {
+      series: [ "mj" ],
+			notgirl: true,
+			notadded: true
+    }
+  },
+	{
+    name: "Grain",
+    img: "DVrB86K.png",
+    opts: {
+      series: [ "mj" ],
+			notgirl: true,
+			notadded: true
+    }
+  },
+	{
+    name: "Guild Master",
+    img: "ReEoeyV.png",
+    opts: {
+      series: [ "frb", "mj" ],
+			notgirl: true,
+			notadded: true
+    }
+  },
+	{
+    name: "Merchant",
+    img: "obccmpx.png",
+    opts: {
+      series: [ "mj" ],
+			notgirl: true,
+			notadded: true
+    }
+  },
+	{
+    name: "Scholar",
+    img: "fPWzr6c.png",
+    opts: {
+      series: [ "mj" ],
+			notgirl: true,
+			notadded: true
+    }
+  },
+	{
+    name: "Scientist",
+    img: "5xtBaAw.png",
+    opts: {
+      series: [ "mj" ],
+			notgirl: true,
+			notadded: true
+    }
+  },
 ]
