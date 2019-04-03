@@ -14,7 +14,7 @@ dataSet[dataSetVersion].options = [
 			{ name: "Christmas Shooting", key: "cms", checked: false },
 			{ name: "QP Shooting - Dangerous!!", key: "qpsd", checked: false },
 			{ name: "Xmas Shooting - Scramble!!", key: "xmss", checked: false },
-      { name: "SUGURI", key: "sugu", checked: false },
+			{ name: "SUGURI", key: "sugu", checked: false },
 			{ name: "sora", key: "sora", checked: false },
 			{ name: "Acceleration of SUGURI (X-Edition)", key: "aos", checked: false },
 			{ name: "Acceleration of SUGURI 2", key: "aos2", checked: false },
