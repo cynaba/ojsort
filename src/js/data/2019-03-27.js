@@ -587,7 +587,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Bourbon",
     img: "0vZOYg8.png",
     opts: {
-      series: [ "mj" ],
+      series: [ "frb", "mj" ],
 			notgirl: true,
 			notadded: true
     }
@@ -596,7 +596,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Grain",
     img: "DVrB86K.png",
     opts: {
-      series: [ "mj" ],
+      series: [ "frb", "mj" ],
 			notgirl: true,
 			notadded: true
     }
@@ -614,7 +614,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Merchant",
     img: "obccmpx.png",
     opts: {
-      series: [ "mj" ],
+      series: [ "frb", "mj" ],
 			notgirl: true,
 			notadded: true
     }
@@ -623,7 +623,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Scholar",
     img: "fPWzr6c.png",
     opts: {
-      series: [ "mj" ],
+      series: [ "frb", "mj" ],
 			notgirl: true,
 			notadded: true
     }
@@ -632,7 +632,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Scientist",
     img: "5xtBaAw.png",
     opts: {
-      series: [ "mj" ],
+      series: [ "frb", "mj" ],
 			notgirl: true,
 			notadded: true
     }
