@@ -33,7 +33,7 @@ dataSet[dataSetVersion].options = [
   {
     name: "Remove Non-Girls",
     key: "notgirl",
-    tooltip: "Check this to remove all non-female characters\nMira counts as a girl",
+    tooltip: "Check this to remove all non-female characters\nMira counts as a girl in this sorter",
 		checked: false
   },
 	{
@@ -602,7 +602,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
 	{
-    name: "Guild Master",
+    name: "Malt (Guild Master)",
     img: "ReEoeyV.png",
     opts: {
       series: [ "frb", "mj" ],
