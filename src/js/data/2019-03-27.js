@@ -33,7 +33,7 @@ dataSet[dataSetVersion].options = [
   {
     name: "Remove Non-Girls",
     key: "notgirl",
-    tooltip: "Check this to remove all non-female characters\nMira counts as a girl in this sorter",
+    tooltip: "Check this to remove all non-female characters\nMira count as girls in this sorter",
 		checked: false
   },
 	{
