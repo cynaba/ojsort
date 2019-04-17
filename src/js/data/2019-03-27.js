@@ -11,35 +11,35 @@ dataSet[dataSetVersion].options = [
 			{ name: "100% Orange Juice!", key: "oj" },
 			{ name: "200% Mixed Juice!", key: "mj", checked: false },
 			{ name: "QP Shooting", key: "qps", checked: false },
-			{ name: "Christmas Shooting", key: "cms", checked: false },
+			{ name: "Christmas Shooting", key: "cms", tooltip: "Pink hair Natsumi is NOT included as she's a 'new' character", checked: false },
 			{ name: "QP Shooting - Dangerous!!", key: "qpsd", checked: false },
 			{ name: "Xmas Shooting - Scramble!!", key: "xmss", checked: false },
 			{ name: "SUGURI", key: "sugu", checked: false },
 			{ name: "sora", key: "sora", checked: false },
-			{ name: "Acceleration of SUGURI (X-Edition)", key: "aos", checked: false },
+			{ name: "Acceleration of SUGURI (X-Edition)", key: "aos", tooltip: "All AoS1 versions (classic, X, HD)", checked: false },
 			{ name: "Acceleration of SUGURI 2", key: "aos2", checked: false },
-			{ name: "Flying Red Barrel", key: "frb", checked: false },
-			{ name: "Alicianrone", key: "alicia", checked: false },
-			{ name: "QP Kiss", key: "qpk", checked: false }
+			{ name: "Flying Red Barrel", key: "frb", tooltip: "Includes Flying Crimson Barrel if Alt Chars is unchecked", checked: false },
+			{ name: "Alicianrone", key: "alicia", tooltip: "Unreleased OJ game", checked: false },
+			{ name: "QP Kiss", key: "qpk", tooltip: "Dating sim game for April Fools'", checked: false }
 
     ]
   },
 	{
     name: "Remove Alternate Versions",
     key: "alt",
-    tooltip: "Check this to remove possible duplicate Characters\ne.g. Suguri (Ver.2)",
+    tooltip: "Check this to remove possible duplicate Characters\ne.g. Suguri (Ver.2), Marc (Pig), etc.",
 		checked: false
   },
   {
     name: "Remove Non-Girls",
     key: "notgirl",
-    tooltip: "Check this to remove all non-female characters\nMira count as girls in this sorter",
+    tooltip: "Check this to remove all non-female characters\nAll Mira count as girls in this sorter for easier reference",
 		checked: false
   },
 	{
     name: "Remove Neutral (NPC) Characters",
     key: "npc",
-    tooltip: "Check this to remove all NPCs\ne.g. Chicken, Seagull",
+    tooltip: "Check this to remove all NPCs in 100% OJ\ne.g. Chicken, Seagull, Store Manager, etc.",
 		checked: false
   },
 	{
