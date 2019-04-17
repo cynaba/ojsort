@@ -121,7 +121,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Kiriko",
     img: "rHFVaDh.png",
     opts: {
-      series: [ "cms", "oj", "mj", "xmss" ]
+      series: [ "cms", "oj", "xmss" ]
     }
   },
 	{
@@ -206,7 +206,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Natsumi",
     img: "nBMSHYR.png",
     opts: {
-      series: [ "cms", "oj", "mj", "xmss" ]
+      series: [ "oj", "mj", "xmss" ]
     }
   },
 	{
