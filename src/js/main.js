@@ -106,7 +106,7 @@ function init() {
   document.querySelector('.image.selector').insertAdjacentElement('beforeend', document.createElement('select'));
 
   /** Initialize image quantity selector for results. */
-  for (let i = 0; i <= 10; i++) {
+  for (let i = 0; i <= 100; i++) {
     const select = document.createElement('option');
     select.value = i;
     select.text = i;
@@ -479,7 +479,7 @@ function result(imageNum = 3) {
   document.querySelector('.info').style.display = 'none';
 
   const header = '<div class="result head"><div class="left">Order</div><div class="right">Name</div></div>';
-  const timeStr = `This sorter was completed on ${new Date(timestamp + timeTaken).toString()} and took ${msToReadableTime(timeTaken)}. <a href="${location.protocol}//${sorterURL}">Do another sorter?</a>`;
+  const timeStr = `This sorter was completed on ${new Date(timestamp + timeTaken).toString()}and took ${msToReadableTime(timeTaken)}. <a href="${location.protocol}//${sorterURL}">Sort again?</a>`;
   const imgRes = (char, num) => {
     const charName = reduceTextWidth(char.name, 'Helvetica 12px', 160);
     const charTooltip = char.name !== charName ? char.name : '';
