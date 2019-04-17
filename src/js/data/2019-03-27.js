@@ -5,7 +5,7 @@ dataSet[dataSetVersion].options = [
   {
     name: "Filter by Series",
     key: "series",
-    tooltip: "Check this to restrict to certain series\n(All that apply\nSmall cameos will not be included)	",
+    tooltip: "Check this to restrict to certain series\n(All that apply\nSmall cameos will not be included)",
     checked: true,
     sub: [
 			{ name: "100% Orange Juice!", key: "oj" },
