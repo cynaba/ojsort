@@ -45,7 +45,7 @@ dataSet[dataSetVersion].options = [
 	{
     name: "Remove Unadded Characters",
     key: "npc",
-    tooltip: "Check this to remove all characters not playable in 100% OJ (yet)	\ne.g. Lone Rider",
+    tooltip: "Check this to remove all characters not playable in 100% OJ (yet)\ne.g. Lone Rider",
 		checked: false
   }
 ];
