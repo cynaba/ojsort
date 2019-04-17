@@ -11,7 +11,7 @@ dataSet[dataSetVersion].options = [
 			{ name: "100% Orange Juice!", key: "oj" },
 			{ name: "200% Mixed Juice!", key: "mj", checked: false },
 			{ name: "QP Shooting", key: "qps", checked: false },
-			{ name: "Christmas Shooting", key: "cms", tooltip: "Pink hair Natsumi is NOT included as she's a 'new' character", checked: false },
+			{ name: "Christmas Shooting", key: "cms", tooltip: "Peach hair Natsumi is NOT included as she's a 'new' character\nOld Natsumi will be added eventually", checked: false },
 			{ name: "QP Shooting - Dangerous!!", key: "qpsd", checked: false },
 			{ name: "Xmas Shooting - Scramble!!", key: "xmss", checked: false },
 			{ name: "SUGURI", key: "sugu", checked: false },
