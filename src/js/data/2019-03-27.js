@@ -71,7 +71,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Aru",
     img: "Kg08ML1.png",
     opts: {
-      series: [ "cms", "oj", "xmss" ]
+      series: [ "cms", "oj", "mj" ]
     }
   },
   {
