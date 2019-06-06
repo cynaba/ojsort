@@ -657,7 +657,7 @@ dataSet[dataSetVersion].characterData = [
   },
 	{
     name: "Big the Haruo",
-    img: "9rhfcx9.png",
+    img: "7LE9AYz.png",
     opts: {
       series: [ "oj" ],
 			npc: true
@@ -665,7 +665,7 @@ dataSet[dataSetVersion].characterData = [
   },
 	{
     name: "M10 Robot",
-    img: "eW6YJ6y.png",
+    img: "Ur3rGdT.png",
     opts: {
       series: [ "oj" ],
 			notgirl: true,
@@ -674,7 +674,7 @@ dataSet[dataSetVersion].characterData = [
   },
 	{
     name: "Star Devourer",
-    img: "jI0Fp4r.png",
+    img: "lMrA7KF.png",
     opts: {
       series: [ "oj" ],
 			npc: true
