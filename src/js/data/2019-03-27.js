@@ -44,7 +44,7 @@ dataSet[dataSetVersion].options = [
   },
 	{
     name: "Remove Unadded Characters",
-    key: "npc",
+    key: "notadded",
     tooltip: "Check this to remove all characters not playable in 100% OJ (yet)\ne.g. Lone Rider",
 		checked: false
   }
@@ -645,4 +645,39 @@ dataSet[dataSetVersion].characterData = [
 			notadded: true
     }
   },
+	// Co-op Mode Bosses
+	{
+    name: "Big the Jonathan",
+    img: "kd4aBRH.png",
+    opts: {
+      series: [ "oj" ],
+			notgirl: true,
+			npc: true
+    }
+  },
+	{
+    name: "Big the Haruo",
+    img: "9rhfcx9.png",
+    opts: {
+      series: [ "oj" ],
+			npc: true
+    }
+  },
+	{
+    name: "M10 Robot",
+    img: "eW6YJ6y.png",
+    opts: {
+      series: [ "oj" ],
+			notgirl: true,
+			npc: true
+    }
+  },
+	{
+    name: "Star Devourer",
+    img: "jI0Fp4r.png",
+    opts: {
+      series: [ "oj" ],
+			npc: true
+    }
+  }
 ]
