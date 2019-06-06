@@ -366,6 +366,14 @@ dataSet[dataSetVersion].characterData = [
     }
   },
 	{
+		name: "Sora (Military)",
+		img: "F1a7fdb.png",
+		opts: {
+			series: [ "oj", "sora" ],
+			alt: true
+		}
+	},
+	{
     name: "Tomomo (Casual)",
     img: "xa2PgEO.png",
     opts: {
