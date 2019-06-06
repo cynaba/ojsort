@@ -654,6 +654,42 @@ dataSet[dataSetVersion].characterData = [
 			notadded: true
     }
   },
+	{
+    name: "Butler",
+    img: "SAAMAu1.png",
+    opts: {
+      series: [ "frb" ],
+			notgirl: true,
+			notadded: true
+    }
+  },
+	{
+    name: "Punk",
+    img: "4pjxxzA.png",
+    opts: {
+      series: [ "frb" ],
+			notgirl: true,
+			notadded: true
+    }
+  },
+	{
+    name: "Guild Member",
+    img: "bzQVkpk.png",
+    opts: {
+      series: [ "frb" ],
+			notgirl: true,
+			notadded: true
+    }
+  },
+	{
+		name: "Shifu",
+		img: "VIJC2UW.png",
+		opts: {
+			series: [ "sugu", "mj" ],
+			notgirl: true,
+			notadded: true
+		}
+	},
 	// Co-op Mode Bosses
 	{
     name: "Big the Jonathan",
