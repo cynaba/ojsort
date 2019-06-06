@@ -304,6 +304,15 @@ dataSet[dataSetVersion].characterData = [
     }
   },
 	{
+		name: "Pirate Crew Member",
+		img: "m7a3Ofs.png",
+		opts: {
+			series: [ "frb", "oj" ],
+			notgirl: true,
+			npc: true
+		}
+	},
+	{
     name: "Tomato",
     img: "EVEQks9.png",
     opts: {
