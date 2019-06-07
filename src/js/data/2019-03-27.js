@@ -693,7 +693,7 @@ dataSet[dataSetVersion].characterData = [
 	// Co-op Mode Bosses
 	{
     name: "Big the Jonathan",
-    img: "kd4aBRH.png",
+    img: "lMrA7KF.png",
     opts: {
       series: [ "oj" ],
 			notgirl: true,
@@ -719,7 +719,7 @@ dataSet[dataSetVersion].characterData = [
   },
 	{
     name: "Star Devourer",
-    img: "lMrA7KF.png",
+    img: "jI0Fp4r.png",
     opts: {
       series: [ "oj" ],
 			npc: true
