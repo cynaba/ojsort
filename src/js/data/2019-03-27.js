@@ -399,6 +399,14 @@ dataSet[dataSetVersion].characterData = [
     }
   },
 	{
+    name: "Cuties",
+    img: "7SuHV3w.png",
+    opts: {
+      series: [ "oj", "mj" ],
+			alt: true
+    }
+  },
+	{
     name: "Yuki (Dangerous)",
     img: "whUTpHI.png",
     opts: {
