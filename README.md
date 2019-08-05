@@ -1,5 +1,5 @@
 # ojsort
-Orange_Juice Sorter
+Orange_Juice / 100% Orange Juice Sorter
 
 its a sorter for characters from 100% Orange Juice! and other games by Orange_Juice
 
