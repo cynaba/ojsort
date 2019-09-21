@@ -16,7 +16,7 @@ dataSet[dataSetVersion].options = [
 			{ name: "Xmas Shooting - Scramble!!", key: "xmss", checked: false },
 			{ name: "SUGURI", key: "sugu", checked: false },
 			{ name: "sora", key: "sora", checked: false },
-			{ name: "Acceleration of SUGURI (X-Edition)", key: "aos", tooltip: "Doesn't include Suguri's alt versions", checked: false },
+			{ name: "Acceleration of SUGURI (X-Edition)", key: "aos", tooltip: "Doesn't include Suguri-P and Suguri-SP", checked: false },
 			{ name: "Acceleration of SUGURI 2", key: "aos2", checked: false },
 			{ name: "Flying Red Barrel", key: "frb", tooltip: "Includes Flying Crimson Barrel if Removing Alt Chars is unchecked", checked: false },
 			{ name: "Alicianrone", key: "alicia", tooltip: "Unreleased OJ game", checked: false },
