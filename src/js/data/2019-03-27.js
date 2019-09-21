@@ -11,14 +11,14 @@ dataSet[dataSetVersion].options = [
 			{ name: "100% Orange Juice!", key: "oj" },
 			{ name: "200% Mixed Juice!", key: "mj", checked: false },
 			{ name: "QP Shooting", key: "qps", checked: false },
-			{ name: "Christmas Shooting", key: "cms", tooltip: "Peach hair Natsumi is NOT included as she's a 'new' character\nOld Natsumi will be added eventually", checked: false },
+			{ name: "Christmas Shooting", key: "cms", checked: false },
 			{ name: "QP Shooting - Dangerous!!", key: "qpsd", checked: false },
 			{ name: "Xmas Shooting - Scramble!!", key: "xmss", checked: false },
 			{ name: "SUGURI", key: "sugu", checked: false },
 			{ name: "sora", key: "sora", checked: false },
-			{ name: "Acceleration of SUGURI (X-Edition)", key: "aos", tooltip: "All AoS1 versions (classic, X, HD)", checked: false },
+			{ name: "Acceleration of SUGURI (X-Edition)", key: "aos", tooltip: "Doesn't include Suguri's alt versions", checked: false },
 			{ name: "Acceleration of SUGURI 2", key: "aos2", checked: false },
-			{ name: "Flying Red Barrel", key: "frb", tooltip: "Includes Flying Crimson Barrel if Alt Chars is unchecked", checked: false },
+			{ name: "Flying Red Barrel", key: "frb", tooltip: "Includes Flying Crimson Barrel if Removing Alt Chars is unchecked", checked: false },
 			{ name: "Alicianrone", key: "alicia", tooltip: "Unreleased OJ game", checked: false },
 			{ name: "QP Kiss", key: "qpk", tooltip: "Dating sim game for April Fools'", checked: false }
 
