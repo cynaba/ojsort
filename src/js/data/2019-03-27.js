@@ -499,8 +499,8 @@ dataSet[dataSetVersion].characterData = [
     name: "Islay",
     img: "k5R9hmB.png",
     opts: {
-      series: [ "frb", "mj" ],
-			notadded: true
+      series: [ "frb", "mj", "oj" ],
+			
     }
   },
 	{
@@ -567,8 +567,8 @@ dataSet[dataSetVersion].characterData = [
     name: "Yuuki",
     img: "XP99sjX.png",
     opts: {
-      series: [ "qps", "mj" ],
-			notadded: true
+      series: [ "qps", "mj", "oj" ],
+			
     }
   },
 	{
