@@ -497,7 +497,7 @@ dataSet[dataSetVersion].characterData = [
   },
 	{
     name: "Islay",
-    img: "k5R9hmB.png",
+    img: "ohOxEQe.png",
     opts: {
       series: [ "frb", "mj", "oj" ],
 			
@@ -565,7 +565,7 @@ dataSet[dataSetVersion].characterData = [
   },
 	{
     name: "Yuuki",
-    img: "XP99sjX.png",
+    img: "ojNsbRl.png",
     opts: {
       series: [ "qps", "mj", "oj" ],
 			
@@ -728,6 +728,14 @@ dataSet[dataSetVersion].characterData = [
 	{
     name: "Star Devourer",
     img: "jI0Fp4r.png",
+    opts: {
+      series: [ "oj" ],
+			npc: true
+    }
+  },
+		{
+    name: "Summer Beast",
+    img: "a5xuZ9N.png",
     opts: {
       series: [ "oj" ],
 			npc: true
