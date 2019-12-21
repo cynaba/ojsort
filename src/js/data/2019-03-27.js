@@ -738,5 +738,20 @@ dataSet[dataSetVersion].characterData = [
       series: [ "oj" ],
 			npc: true
     }
+  },
+			{
+    name: "Mio",
+    img: "CnKN3Gt.png",
+    opts: {
+      series: [ "oj" ],
+    }
+  },
+			{
+    name: "RoPoChi",
+    img: "Vwov1Au.png",
+    opts: {
+      series: [ "oj" ],
+			npc: true
+    }
   }
 ]
