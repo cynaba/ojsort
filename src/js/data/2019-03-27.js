@@ -744,6 +744,7 @@ dataSet[dataSetVersion].characterData = [
     img: "CnKN3Gt.png",
     opts: {
       series: [ "oj" ],
+			npc: true
     }
   },
 			{
