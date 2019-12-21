@@ -592,20 +592,18 @@ dataSet[dataSetVersion].characterData = [
   },
 	{
     name: "Suguri (46 Billion Years)",
-    img: "RctxyjS.png",
+    img: "hI0B4Dx.png",
     opts: {
-      series: [ "mj" ],
-			alt: true,
-			notadded: true
+      series: [ "oj", "mj" ],
+			alt: true
     }
   },
 	{
     name: "Sumika (46 Billion Years)",
-    img: "s2qRx1v.png",
+    img: "UFOF72b.png",
     opts: {
-      series: [ "mj" ],
-			alt: true,
-			notadded: true
+      series: [ "oj", "mj" ],
+			alt: true
     }
   },
 	{
